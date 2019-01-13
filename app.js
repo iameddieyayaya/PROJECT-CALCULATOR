@@ -74,7 +74,7 @@ function operatorClicked(operator){
   }
   else if (operand) {
     console.log('poop');
-  
+
   }
   calDisplay(operator);
   deci.addEventListener('click', buttonClicked);
@@ -114,7 +114,7 @@ function operate(a,operand,b){
     case '-':
       sum = subtract(a,b);
       break;
-    case 'x':
+    case '*':
       sum = multiply(a,b);
       break;
     case '÷':
